@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-vuetify-typescript-template",
+  "name": "nuxt-phaser-template",
   "version": "1.0.0",
-  "description": "Template to build Nuxtjs applications using vuetify and typescript + tests",
+  "description": "Template to build Phaser games with Nuxtjs",
   "author": "Mateus Pimentel",
   "private": true,
   "scripts": {
@@ -18,8 +18,12 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "@types/lodash": "^4.14.149",
+    "jest-canvas-mock": "^2.2.0",
     "lodash": "^4.17.15",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "nuxtjs-phaser": "^1.0.17",
+    "phaser": "^3.21.0",
+    "ts-jest": "^24.2.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.0.0",

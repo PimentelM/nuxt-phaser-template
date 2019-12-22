@@ -7,8 +7,8 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: 'Nuxt Vuetify',
-    title: process.env.npm_package_name || 'Nuxt Vuetify',
+    titleTemplate: 'Nuxt Phaser',
+    title: process.env.npm_package_name || 'Nuxt Phaser',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -32,6 +32,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: 'node_modules/nuxtjs-phaser', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules

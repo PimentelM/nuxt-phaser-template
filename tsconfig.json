@@ -6,7 +6,11 @@
     "lib": [
       "esnext",
       "esnext.asynciterable",
-      "dom"
+      "dom",
+      "es6",
+      "es7",
+      "dom",
+      "scripthost"
     ],
     "esModuleInterop": true,
     "allowJs": true,
@@ -22,12 +26,21 @@
         "./*"
       ]
     },
+    "typeRoots": [
+      "nuxtjs-phaser/types"
+//      ,"phaser/types"
+    ],
     "types": [
       "@types/node",
-      "@nuxt/types"
+      "@nuxt/types",
+      "@types/jest",
+      "Phaser"
     ]
   },
   "exclude": [
     "node_modules"
+  ],
+  "include": [
+    "**/*.ts"
   ]
 }
